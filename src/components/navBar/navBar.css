@@ -1,0 +1,53 @@
+.navBar {
+  text-align: left;
+  width: 14rem;
+  padding-left: 1rem;
+  font-size: 120%;
+  height: 100%;
+  position: fixed;
+  box-shadow: 1px 2px 5px 1px rgb(0, 0, 0, 0.15);
+  overflow-y: scroll;
+}
+
+.gettingStartedHeading {
+  margin-top: 2rem;
+  /* margin-bottom: 2.5rem; */
+}
+
+.componentsLink {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.componentHeading {
+  margin-bottom: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: palevioletred;
+  border-radius: 5px;
+  margin: 0.8rem 0rem;
+  padding: 10px 10px;
+  padding-left: 1rem;
+  box-shadow: 1px 2px 5px 1px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  /* transition: background-color 300ms ease-in-out, font-weight 300ms ease-in-out; */
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-color: palevioletred;
+  box-shadow: 1px 2px 5px 1px rgb(0, 0, 0, 0.5);
+  color: aliceblue;
+  width: 10rem;
+  transform: scale(1.08) translateX(10px);
+  font-weight: bold;
+}
+
+.installationLink {
+  padding-right: 3.2rem;
+  margin: 2rem 0rem;
+}
