@@ -9,7 +9,7 @@
   height: 100%;
   width: 100%;
   z-index: 7;
-  margin-top: 3rem;
+  margin-top: 5rem;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -23,16 +23,6 @@
   text-align: center;
   margin-top: -10rem;
 }
-
-.homePage h1 {
-  font-size: 3rem;
-}
-
-/* .homePage p {
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 0% 20%;
-} */
 
 .phrase-1 {
   font-size: 3.5rem;
@@ -55,20 +45,32 @@
   display: flex;
   justify-content: center;
 }
+.buttonComponent {
+  width: 16rem;
+}
+
+.generalLink {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 
 .btnHomePage {
-  margin-right: 10rem;
-  margin-left: 5rem;
+  /* margin: 0rem 7rem; */
   padding: 15px 30px;
   font-size: larger;
   font-weight: 500;
   border-radius: 5px;
   border: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btnHomePage:hover {
+  letter-spacing: 0.2rem;
 }
 
 .btnGetStarted {
   background-color: var(--primary-color);
-  cursor: pointer;
 }
 
 .btnGetStarted:hover {
@@ -76,7 +78,7 @@
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgb(255, 122, 166) 0%,
+    rgb(240, 75, 130) 0%,
     rgba(252, 252, 252, 1) 100%
   );
 
@@ -84,7 +86,6 @@
 }
 
 .btnGitHub {
-  cursor: pointer;
   border: 2px solid var(--primary-color);
   color: var(--secondary-color);
   background: rgb(255, 255, 255);
@@ -104,4 +105,6 @@
     rgb(240, 75, 130) 0%,
     rgba(252, 252, 252, 1) 100%
   );
+
+  border: 2px solid var(--primary-color);
 }

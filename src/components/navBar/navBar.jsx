@@ -1,6 +1,6 @@
 import "./navBar.css";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const components = [
@@ -15,45 +15,55 @@ const NavBar = () => {
     "Text",
   ];
 
+  const activeLink = ({ isActive }) => ({
+    backgroundColor: isActive ? "var(--pink-color)" : "",
+    boxShadow: isActive ? "1px 2px 5px 1px rgb(0, 0, 0, 0.5)" : "",
+    color: isActive ? "var(--white-color)" : "",
+    transform: isActive ? "scale(1.08) translateX(10px)" : "",
+    fontWight: isActive ? "bold" : "",
+  });
+
+  console.log(activeLink);
+
   return (
     <div className="navBar">
       <h3 className=" gettingStartedHeading">Getting Started</h3>
 
       <div className="componentsLink">
-        <Link className="link" to="/installation">
+        <NavLink style={activeLink} className="link" to="/installation">
           Installation
-        </Link>
+        </NavLink>
       </div>
       <hr className="seprateLine" />
       <nav className="componentsLink">
         <h3 className=" componentHeading">Components</h3>
-        <Link className="link" to="/alert">
+        <NavLink style={activeLink} className="link" to="/alert">
           Alert
-        </Link>
-        <Link className="link" to="/avatar">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/avatar">
           Avatar
-        </Link>
-        <Link className="link" to="/badge">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/badge">
           Badge
-        </Link>
-        <Link className="link" to="/card">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/card">
           Card
-        </Link>
-        <Link className="link" to="/heading">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/heading">
           Heading
-        </Link>
-        <Link className="link" to="/images">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/images">
           Images
-        </Link>
-        <Link className="link" to="/loader">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/modal">
           Modal
-        </Link>
-        <Link className="link" to="/loader">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/loader">
           Loader
-        </Link>
-        <Link className="link" to="/Text">
+        </NavLink>
+        <NavLink style={activeLink} className="link" to="/Text">
           Text
-        </Link>
+        </NavLink>
       </nav>
     </div>
   );

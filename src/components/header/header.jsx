@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
   return (
     <div className="header">
-      <h1> CssStyler</h1>
+      <Link className="generalLink" to="/">
+        <h1> CssStyler</h1>
+      </Link>
 
       <section className="option">
         <h3>Documentions</h3>
