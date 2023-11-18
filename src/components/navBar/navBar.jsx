@@ -24,7 +24,7 @@ const NavBar = () => {
           Installation
         </Link>
       </div>
-
+      <hr className="seprateLine" />
       <nav className="componentsLink">
         <h3 className=" componentHeading">Components</h3>
         <Link className="link" to="/alert">

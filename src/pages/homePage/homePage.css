@@ -1,0 +1,107 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: 7;
+  margin-top: 3rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(245, 184, 204) 0%,
+    rgba(252, 252, 252, 1) 100%
+  );
+}
+
+.homePage {
+  text-align: center;
+  margin-top: -10rem;
+}
+
+.homePage h1 {
+  font-size: 3rem;
+}
+
+/* .homePage p {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0% 20%;
+} */
+
+.phrase-1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: grey;
+  text-align: center;
+  padding: 0% 20%;
+}
+
+.phrase-2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0% 20%;
+  margin-top: -2rem;
+  color: rgb(73, 70, 70);
+}
+
+.btnSection {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btnHomePage {
+  margin-right: 10rem;
+  margin-left: 5rem;
+  padding: 15px 30px;
+  font-size: larger;
+  font-weight: 500;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.btnGetStarted {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btnGetStarted:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 122, 166) 0%,
+    rgba(252, 252, 252, 1) 100%
+  );
+
+  border: 2px solid var(--primary-color);
+}
+
+.btnGitHub {
+  cursor: pointer;
+  border: 2px solid var(--primary-color);
+  color: var(--secondary-color);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 213, 227) 0%,
+    rgba(252, 252, 252, 1) 100%
+  );
+}
+
+.btnGitHub:hover {
+  background-color: var(--primary-color);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(240, 75, 130) 0%,
+    rgba(252, 252, 252, 1) 100%
+  );
+}
