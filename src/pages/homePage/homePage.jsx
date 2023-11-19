@@ -27,7 +27,16 @@ const HomePage = () => {
             </button>
           </div>{" "}
           <div className="buttonComponent">
-            <button className="btnHomePage btnGitHub">GitHub</button>
+            <button className="btnHomePage btnGitHub">
+              {" "}
+              <Link
+                className="generalLink"
+                target="_blank"
+                to="https://github.com/Shreyannsh"
+              >
+                GitHub
+              </Link>
+            </button>
           </div>
         </div>
       </div>

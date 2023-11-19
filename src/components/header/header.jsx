@@ -9,8 +9,14 @@ const Header = () => {
       </Link>
 
       <section className="option">
-        <h3>Documentions</h3>
-        <h3>Code Base</h3>
+        <Link className="generalLink button" to="/installation">
+          {" "}
+          Documentions
+        </Link>
+        <Link className="generalLink button" to="https://github.com/Shreyannsh">
+          {" "}
+          Code base
+        </Link>
       </section>
     </div>
   );
