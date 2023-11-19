@@ -33,13 +33,6 @@ p {
   width: 100%;
   position: relative;
 }
-/* 
-.leftBar {
-  display: flex;
-  position: fixed;
-  left: 0;
-  overflow: hidden;
-} */
 
 .documentsSection {
   margin-left: 12rem;

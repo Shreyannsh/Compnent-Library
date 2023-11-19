@@ -85,7 +85,6 @@ const Button = () => {
         <button className="outline-btn outline-delete">Delete </button>
         <button className="outline-btn outline-submit">Sumbit </button>
         <button className="outline-btn outline-cancel">Cancel </button>
-        <button className="outline-btn outline-animation">Animation</button>
       </div>
 
       <p>To Achive these button you have to follow the following code</p>

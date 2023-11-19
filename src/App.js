@@ -21,9 +21,7 @@ function App() {
         <Header />
       </div>
       <div className="bodyComponent">
-        <div className="leftBar">
-          <NavBar />
-        </div>
+        <NavBar />
 
         <div className="documentsSection">
           <Routes>
