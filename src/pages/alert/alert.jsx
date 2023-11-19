@@ -9,11 +9,11 @@ const Alert = () => {
       <h3>Usages</h3>
       <div className="showcase">
         <div>
-          <div className="alert">Alert</div>
+          <div className="alert">Alert!</div>
 
-          <div className="alert alert-success">Success Alert</div>
+          <div className="alert alert-success">Success Alert!</div>
 
-          <div className="alert alert-warning">Warning Alert</div>
+          <div className="alert alert-warning">Warning Alert!</div>
         </div>
       </div>
       <p>To achieve the above alert, you need to follow the following code:</p>
