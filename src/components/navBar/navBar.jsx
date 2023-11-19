@@ -58,9 +58,6 @@ const NavBar = () => {
         <NavLink style={activeLink} className="link" to="/images">
           Images
         </NavLink>
-        <NavLink style={activeLink} className="link" to="/loader">
-          Loader
-        </NavLink>
         <NavLink style={activeLink} className="link" to="/modal">
           Modal
         </NavLink>

@@ -9,7 +9,6 @@ import Card from "./pages/card/card";
 import Heading from "./pages/heading/heading";
 import Images from "./pages/images/images";
 import Installation from "./pages/installation/installation";
-import Loader from "./pages/loader/loader";
 import Modal from "./pages/modal/modal";
 import Text from "./pages/text/text";
 import Header from "./components/header/header";
@@ -37,7 +36,6 @@ function App() {
             <Route path="/heading" element={<Heading />} />
             <Route path="/images" element={<Images />} />
             <Route path="/installation" element={<Installation />} />
-            <Route path="/loader" element={<Loader />} />
             <Route path="/modal" element={<Modal />} />
             <Route path="/text" element={<Text />} />
           </Routes>
