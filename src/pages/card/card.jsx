@@ -19,7 +19,6 @@ const Card = () => {
         className="iframe"
         sandbox="allow-scripts allow-same-origin"
       ></iframe>
-      />
       <h1>Card with dismiss</h1>
       <p>Card with Dismiss will help you to close the dialog/popup message.</p>
       <h3>Usages</h3>
@@ -72,7 +71,7 @@ const Card = () => {
         className="iframe"
         sandbox="allow-scripts allow-same-origin"
       ></iframe>
-      {/* image card  */}
+
       <h1>Cards with text overlay</h1>
       <p>
         Cards with text overlay is about to show the details about any image

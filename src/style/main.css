@@ -272,7 +272,7 @@
 
 .badge-card .offer {
   position: absolute;
-  top: 0.1rem;
+  top: 0.4rem;
   left: 0;
   background: red;
   color: #fff;
@@ -492,11 +492,8 @@
   height: 100%;
   background: #6c6c6c6d;
   position: fixed;
-
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  z-index: 99;
+  inset: 0;
 }
 
 .modal {
