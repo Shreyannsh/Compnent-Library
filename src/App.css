@@ -57,6 +57,20 @@
   margin: 1.5rem 0rem;
 }
 
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head h1,
+.head h3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 /* All containers */
 
 .container {

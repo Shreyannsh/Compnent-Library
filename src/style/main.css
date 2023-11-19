@@ -602,10 +602,14 @@
 
 .master,
 .submaster,
-.miniheading {
+.miniheading,
+.subminiheading,
+.hyphenate,
+.subhyphenate {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
 }
 .head-green {
   color: #05801b;
