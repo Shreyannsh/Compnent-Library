@@ -8,7 +8,7 @@
 
   height: 100%;
   width: 100%;
-  z-index: 7;
+  z-index: 9;
   margin-top: 5rem;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -36,7 +36,7 @@
   font-size: 20px;
   text-align: center;
   padding: 0% 20%;
-  margin-top: -2rem;
+  margin-top: 2rem;
   color: rgb(73, 70, 70);
 }
 

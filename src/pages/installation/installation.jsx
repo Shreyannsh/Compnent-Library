@@ -1,4 +1,3 @@
-import "../../commonCss.css";
 import "../../style/main.css";
 import "./installation.css";
 

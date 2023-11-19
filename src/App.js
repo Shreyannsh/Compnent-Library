@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Alert from "./pages/alert/alert";
 import NavBar from "./components/navBar/navBar";
 import HomePage from "./pages/homePage/homePage";
@@ -14,6 +13,7 @@ import Loader from "./pages/loader/loader";
 import Modal from "./pages/modal/modal";
 import Text from "./pages/text/text";
 import Header from "./components/header/header";
+import Button from "./pages/button/button";
 
 function App() {
   return (
@@ -21,14 +21,18 @@ function App() {
       <div className="headerComponent">
         <Header />
       </div>
-      <div className="mainPage">
-        <NavBar />
+      <div className="bodyComponent">
+        <div className="leftBar">
+          <NavBar />
+        </div>
+
         <div className="documentsSection">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/alert" element={<Alert />} />
             <Route path="/avatar" element={<Avatar />} />
             <Route path="/badge" element={<Badge />} />
+            <Route path="/button" element={<Button />} />
             <Route path="/card" element={<Card />} />
             <Route path="/heading" element={<Heading />} />
             <Route path="/images" element={<Images />} />

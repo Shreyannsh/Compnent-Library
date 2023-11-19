@@ -46,6 +46,9 @@ const NavBar = () => {
         <NavLink style={activeLink} className="link" to="/badge">
           Badge
         </NavLink>
+        <NavLink style={activeLink} className="link" to="/button">
+          Button
+        </NavLink>
         <NavLink style={activeLink} className="link" to="/card">
           Card
         </NavLink>
