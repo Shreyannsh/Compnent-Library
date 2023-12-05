@@ -4,7 +4,7 @@ A component library that offers an accessible, production-ready, customizable, a
 
 1. Alert
 2. Avatar
-3. Badage
+3. Badge
 4. Button
 5. Card
 6. Heading
